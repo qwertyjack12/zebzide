@@ -6,93 +6,97 @@
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.img {
+.login-body .img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.main {
-    background-color: #1f2937;
+.login-body .main {
+    background-color: #0d1117;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.row {
+.login-body .row {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     color: #9CA3AF;
+    background-color: transparent;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-.pas {
+.login-body .pas {
     display: flex;
     justify-content: space-between;
     color: #9CA3AF;
+    background-color: transparent;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 }
 
-.pas a {
+.login-body .pas a {
     color: #d63840;
     font-size: 14px;
 }
 
-.pas a:hover {
+.login-body .pas a:hover {
     text-decoration: none;
 }
 
-a {
+.login-body a {
     color: #d63840;
+    background-color: transparent;
     cursor: pointer;
 }
 
-a:hover {
+.login-body a:hover {
     text-decoration: underline;
 }
 
-p {
+.login-body p {
     color: #dfdbdb;
+    background-color: transparent;
 }
 
-form.sign-in {
+.login-body form.sign-in {
     max-width: 370px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #111827;
+    background-color: #161b22;
     padding: 8px;
     border-radius: 10px;
 }
 
-form.sign-out {
+.login-body form.sign-out {
     max-width: 370px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;
-    border: 2px solid #111827;
+    border: 3px solid #161b22;
     padding: 16px;
     margin-top: 20px;
     border-radius: 10px;
     text-align: center;
 }
 
-h2 {
+.login-body h2 {
     font-size: 2.25rem;
-    font-weight: bold;
     text-align: center;
+    background-color: transparent;
     color: #dfdbdb;
     margin-bottom: 10px;
 }
 
-input {
+.login-body input {
     border-radius: 0.5rem;
-    border: 2px solid #6f7275;
-    background-color: #4B5563;
+    border: 1px solid #30363d;
+    background-color: #0d1117;
     color: #FFF;
     margin-top: 0.5rem;
     margin-left: 5px;
@@ -101,11 +105,11 @@ input {
     outline: none;
 }
 
-input:focus {
-    border: 2px solid #b2383e;
+.login-body input:focus {
+    border: 1px solid #b2383e;
 }
 
-button {
+.login-body button {
     width: 100%;
     border-radius: 0.5rem;
     margin-top: 1.25rem;
@@ -117,6 +121,6 @@ button {
     font-weight: 600;
 }
 
-button:hover {
+.login-body button:hover {
     background-color: #d63840;
 }
