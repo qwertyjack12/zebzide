@@ -27,7 +27,7 @@ export default function Login() {
                     <button>Sign In</button>
                 </form>
                 <form className='sign-out'>
-                    <p>New to ZebZide? <a href='/logout'>Create an account</a></p>
+                    <p>New to ZebZide? <a href='./logout'>Create an account</a></p>
                 </form>
             </div>
         </div>

@@ -12,7 +12,7 @@ export default function Logout(){
 
 
             <header>
-                <p>Already have an account? <a href='/login'>Sign in →</a></p>
+                <p>Already have an account? <a href='./login'>Sign in →</a></p>
             </header>
 
             <main>

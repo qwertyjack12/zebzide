@@ -12,8 +12,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route exact path='/logout' Component={Logout}/>
-        <Route path='/login' Component={Login}/>
+        <Route path='zebzide/logout' Component={Logout}/>
+        <Route path='zebzide/login' Component={Login}/>
       </Routes>
     </Router>
   )
