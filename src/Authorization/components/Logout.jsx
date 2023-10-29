@@ -4,6 +4,8 @@ import TextTyper from 'text-type-animation-effect-react'
 import '../../styles/Logout.css'
 import ParticlesBg from './ParticlesBg'
 
+import { Link } from "react-router-dom"
+
 export default function Logout(){
     return (
         <div className="logout-body">
@@ -12,7 +14,7 @@ export default function Logout(){
 
 
             <header>
-                <p>Already have an account? <a href='./login'>Sign in →</a></p>
+                <p>Already have an account? <Link to='/login'>Sign in →</Link></p>
             </header>
 
             <main>

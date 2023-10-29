@@ -1,5 +1,7 @@
 import LoginImg from '../assets/login.jpg'
 
+import { Link } from "react-router-dom"
+
 import '../../styles/Login.css'
 
 export default function Login() {
@@ -27,7 +29,7 @@ export default function Login() {
                     <button>Sign In</button>
                 </form>
                 <form className='sign-out'>
-                    <p>New to ZebZide? <a href='./logout'>Create an account</a></p>
+                    <p>New to ZebZide? <Link to='/logout'>Create an account</Link></p>
                 </form>
             </div>
         </div>

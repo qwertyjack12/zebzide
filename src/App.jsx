@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 
 import Logout from './Authorization/components/Logout'
@@ -10,12 +10,11 @@ function App() {
 
 
   return (
-    <Router>
-      <Routes>
-        <Route path='zebzide/logout' Component={Logout}/>
-        <Route path='zebzide/login' Component={Login}/>
-      </Routes>
-    </Router>
+    <Routes>
+      <Route exact path='/' Component={Logout}/>
+      <Route path='/logout' Component={Logout}/>
+      <Route path='/login' Component={Login}/>
+    </Routes>
   )
 }
 
