@@ -4,6 +4,7 @@
 
 * {
     font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 .login-body .img {
@@ -17,6 +18,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 4px;
+    padding: 4px;
 }
 
 .login-body .row {
@@ -39,7 +42,7 @@
 }
 
 .login-body .pas a {
-    color: #d63840;
+    color: #0ccc;
     font-size: 14px;
 }
 
@@ -48,7 +51,7 @@
 }
 
 .login-body a {
-    color: #d63840;
+    color: #0ccc;
     background-color: transparent;
     cursor: pointer;
 }
@@ -63,17 +66,18 @@
 }
 
 .login-body form.sign-in {
-    max-width: 370px;
+    max-width: 350px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
     background-color: #161b22;
-    padding: 8px;
-    border-radius: 10px;
+    padding: 10px 10px;
+    border-radius: 7px;
+    cursor: default;
 }
 
 .login-body form.sign-out {
-    max-width: 370px;
+    max-width: 350px;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -81,12 +85,13 @@
     border: 3px solid #161b22;
     padding: 16px;
     margin-top: 20px;
-    border-radius: 10px;
+    border-radius: 7px;
     text-align: center;
+    cursor: default;
 }
 
 .login-body h2 {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
     text-align: center;
     background-color: transparent;
     color: #dfdbdb;
@@ -94,33 +99,36 @@
 }
 
 .login-body input {
-    border-radius: 0.5rem;
+    border-radius: 8px;
     border: 1px solid #30363d;
     background-color: #0d1117;
     color: #FFF;
-    margin-top: 0.5rem;
+    margin-top: 8px;
     margin-left: 5px;
     margin-right: 5px;
-    padding: 3px;
+    padding: 5px 10px;
     outline: none;
+    transition: 0.2s;
 }
 
+
 .login-body input:focus {
-    border: 1px solid #b2383e;
+    border: 1px solid #0ccc;
+    box-shadow: 0 0 0 2px #0ccc;
 }
 
 .login-body button {
     width: 100%;
     border-radius: 0.5rem;
-    margin-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-top: 0.65rem;
+    margin-bottom: 0.65rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: #b2383e;
+    background-color: #0ccc;
     color: #FFF;
     font-weight: 600;
 }
 
 .login-body button:hover {
-    background-color: #d63840;
+    background-color: #0cc;
 }

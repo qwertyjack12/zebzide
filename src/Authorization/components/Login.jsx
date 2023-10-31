@@ -7,7 +7,7 @@ import '../../styles/Login.css'
 export default function Login() {
   return (
     <div className='login-body'>
-        <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full'>
+        <div className='grid grid-cols-1 sm:grid-cols-2 h-screen w-full bg-king-gray'>
             <div className='hidden sm:block'>
                 <img className='img' src={LoginImg} alt=''/>
             </div>
@@ -17,7 +17,7 @@ export default function Login() {
                 <form className='sign-in'>
                     <div className='row'>
                         <p>Username or e-mail address</p>
-                        <input type='text'/>
+                        <input autoFocus type='text'/>
                     </div>
                     <div className='row'>
                         <div className='pas'>
