@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/zebzide/static/css/main.1800b256.css",
+    "main.js": "/zebzide/static/js/main.fff5d6c2.js",
+    "static/media/login.jpg": "/zebzide/static/media/login.221aa834f4a60afa1bfe.jpg",
+    "index.html": "/zebzide/index.html",
+    "main.1800b256.css.map": "/zebzide/static/css/main.1800b256.css.map",
+    "main.fff5d6c2.js.map": "/zebzide/static/js/main.fff5d6c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1800b256.css",
+    "static/js/main.fff5d6c2.js"
+  ]
+}
