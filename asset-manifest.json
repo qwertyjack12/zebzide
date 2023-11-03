@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/zebzide/static/css/main.1800b256.css",
-    "main.js": "/zebzide/static/js/main.af3b374d.js",
+    "main.css": "/zebzide/static/css/main.bc2993b3.css",
+    "main.js": "/zebzide/static/js/main.daa1ced9.js",
     "static/media/login.jpg": "/zebzide/static/media/login.221aa834f4a60afa1bfe.jpg",
     "index.html": "/zebzide/index.html",
-    "main.1800b256.css.map": "/zebzide/static/css/main.1800b256.css.map",
-    "main.af3b374d.js.map": "/zebzide/static/js/main.af3b374d.js.map"
+    "main.bc2993b3.css.map": "/zebzide/static/css/main.bc2993b3.css.map",
+    "main.daa1ced9.js.map": "/zebzide/static/js/main.daa1ced9.js.map"
   },
   "entrypoints": [
-    "static/css/main.1800b256.css",
-    "static/js/main.af3b374d.js"
+    "static/css/main.bc2993b3.css",
+    "static/js/main.daa1ced9.js"
   ]
 }
