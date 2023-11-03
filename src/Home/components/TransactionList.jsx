@@ -4,7 +4,7 @@ import { Transaction } from "./Transaction"
 
 export const TransactionList = () => {
   const { transactions } = useContext(GlobalContext)
-  const [visibleTransactions, setVisibleTransactions] = useState(3)
+  const [visibleTransactions, setVisibleTransactions] = useState(10)
 
   const handleScroll = () => {
     if (window.innerHeight + document.documentElement.scrollTop >= document.documentElement.offsetHeight) {
