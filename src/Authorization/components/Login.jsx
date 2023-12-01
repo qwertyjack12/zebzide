@@ -27,7 +27,7 @@ export default function Login() {
     function base_64(){
         const str = `${username}:${password}`;
         const base64str = btoa(str)
-        console.log('Base64-строка для базовой авторизации:', base64str)
+        console.log('Authorizaton: Basic:', base64str)
     }
 
   return (
